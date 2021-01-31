@@ -38,10 +38,10 @@ shinyServer(function(input, output) {
           }
       }
       
-  
+    
     #I didn't need to use if{}else{if{}else{}}
     # but I do so to show how to use multiple if else statements.
-})
+  })
   
   
       

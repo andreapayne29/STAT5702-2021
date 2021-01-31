@@ -61,7 +61,7 @@ shinyUI(fluidPage(
       # format of conditionalPanel is:
       # conditionalPanel(condition, stuff2do1, stuff2do2,...)
       conditionalPanel(
-        condition = "input.DensityLogical == 'TRUE'",   #check the logical lower/upper case
+        condition = "input.DensityLogical == 'true'",   #check the logical lower/upper case
         helpText(HTML("<h3>You might want to adjust the boundary estimate</h3>")),  #This is just big text
         checkboxInput("BoundaryCorrect", strong("Correct the density plot at zero?"), FALSE)  #This is a new input
         #
